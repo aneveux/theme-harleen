@@ -61,9 +61,9 @@ function fish_prompt
     git::is_touched; and echo -n -s (yellow)"* "(off)
     echo -n -s (dim)(git::branch_name)(off)
     set -l behind_count (git::behind_count)
-    test $behind_count -eq 0; or echo -n -s (blue)"-"$ahead_count" "(off)
+    test $behind_count -eq 0; or echo -n -s (blue)" -"$ahead_count" "(off)
     set -l ahead_count (git::ahead_count)
-    test $ahead_count -eq 0; or echo -n -s (green)"+"$ahead_count" "(off)
+    test $ahead_count -eq 0; or echo -n -s (green)" +"$ahead_count" "(off)
     echo -n -s (pink)") "(off)
   end
 
