@@ -34,9 +34,7 @@ Huge thanks as well to [erikachristine](http://www.colourlovers.com/lover/erikac
 
 ## Screenshot
 
-<p align="center">
-<img src="{{SCREENSHOT_URL}}">
-</p>
+![screenshot](screen.png)
 
 # License
 
