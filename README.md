@@ -18,11 +18,13 @@ $ omf install harleen
 
 ## Description
 
-*Harleen* is a simple yet useful [Oh My Fish][omf-link] theme highly inspired by the [batman theme](https://github.com/gitter-badger/batman) and the [sushi theme](https://github.com/umayr/theme-sushi).
+*Harleen* is a simple yet useful [Oh My Fish][omf-link] theme highly inspired by the [batman theme](https://github.com/gitter-badger/batman) and the [sushi theme](https://github.com/umayr/theme-sushi), but also from the [fish default theme](https://github.com/oh-my-fish/theme-default).
 
 It is meant to remain simple and bring some useful information when browsing a git repository.
 
 Huge thanks as well to [erikachristine](http://www.colourlovers.com/lover/erikachristine) for her beautiful [color palette](http://www.colourlovers.com/palette/4537580/lisa_frank_rainbow~) which I used for that theme.
+
+Also a huge thanks to @sagebind for his really nice and helpful comments :thumbs_up:
 
 ## Features
 
