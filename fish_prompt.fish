@@ -1,6 +1,11 @@
 # Harleen Theme. Made with <3.
 
 function fish_prompt
+  # Retrieving status of last command
+  # Directly using it to set colors for displaying prompt symbols
+  test $status -ne 0;
+    and set -l last_status_colors 666 aaa f02093
+    or set -l last_status_colors 666 aaa 03adf1
 
   # Defining some helper functions for playing with colors.
   # Thanks to http://www.colourlovers.com/palette/4537580/lisa_frank_rainbow~ for the colors inspiration :)
@@ -19,12 +24,6 @@ function fish_prompt
   set -l diverged "⥄ "
   set -l dirty    "*"
   set -l none     ""
-
-  # Retrieving status of last command
-  # Directly using it to set colors for displaying prompt symbols
-  test $status -ne 0;
-    and set -l last_status_colors 666 aaa f02093
-    or set -l last_status_colors 666 aaa 03adf1
 
   # Displaying useful information in case of browsing a Git repository
   if git_is_repo
