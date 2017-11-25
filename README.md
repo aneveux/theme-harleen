@@ -24,7 +24,7 @@ It is meant to remain simple and bring some useful information when browsing a g
 
 Huge thanks as well to [erikachristine](http://www.colourlovers.com/lover/erikachristine) for her beautiful [color palette](http://www.colourlovers.com/palette/4537580/lisa_frank_rainbow~) which I used for that theme.
 
-Also a huge thanks to @sagebind for his really nice and helpful comments :thumbs_up:
+Also a huge thanks to @sagebind for his really nice and helpful comments :thumbsup:
 
 ## Features
 
