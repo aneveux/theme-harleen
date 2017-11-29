@@ -69,6 +69,6 @@ function fish_prompt
   end
 
   # And one last space. It does everything.
-  echo -n -s " "
+  echo -n -s " " $color_off
 
 end
