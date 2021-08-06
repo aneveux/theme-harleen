@@ -29,7 +29,7 @@ function fish_prompt
   if git_is_repo
     # Displaying the path we're at using short path by default.
     # Particular treatment in case of browsing a Git repository.
-    set root_folder (command git rev-parse --show-toplevel ^/dev/null)
+    set root_folder (command git rev-parse --show-toplevel 2>/dev/null)
     set parent_root_folder (dirname $root_folder)
     set cwd (echo $PWD | sed -e "s|$parent_root_folder/||")
     echo -n -s $color_blue "("$color_dim $cwd $color_blue")" $color_off " "
